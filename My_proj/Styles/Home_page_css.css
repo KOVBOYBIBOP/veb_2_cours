@@ -1,0 +1,133 @@
+.header {
+    background-color: rgb(5, 5, 5);
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+.main_menu {
+    font-size: 1.1rem;
+    font-weight:900;
+    padding: 20px 0;
+ 
+}
+.main_menu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+main p{
+    text-align: justify;
+}
+
+.margin-bottom li{
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    margin-top:20 ;
+
+}
+.table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto; 
+    font-family: Arial, sans-serif; 
+}
+
+.fonts_Pacifico{
+    font-family: 'Pacifico', cursive;
+}
+
+.table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px; 
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2; 
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #e0e0e0; 
+}
+
+.avatar{
+    height: 350px;
+    text-align: center;
+    margin: 3rem 0;
+    background-image: url(../img/Ассемблер.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar img{
+    height: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.btn{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.contact-me-btn {
+    color: white;
+    border-color: white;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.btn:hover{
+    transition: color 0.5s, border-color 0.5s;
+    color: brown;
+    border-color: brown;
+
+}
+
+.py-5{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.w-50{
+    max-width: 50%;
+}
+
+.my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
