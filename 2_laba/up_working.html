@@ -14,18 +14,18 @@
             <input type="hidden" name="user_id" value="6">
             
             <div class="form-group">
-                <label class="form-lable" for="name">ФИО</label>
+                <label class="form-label" for="name">ФИО</label>
                 <input id="name" type="text" name="name" value="Иванов Иван Иванович" required>
             </div>
             
             <div class="form-group">
-                <label class="form-lable" for="email">Email</label>
-                <input id="email" type="email" name="email" placeholder="Введите имя">
+                <label class="form-label" for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="Введите email">
             </div>
 
             
             <div class="form-group">
-                <p class="form-lable">Как вы узнали о нас?</p>
+                <p class="form-label">Как вы узнали о нас?</p>
                 <input type="radio" name="source" id="advertising" value="advertising" checked>
                 <label for="advertising">Реклама в интернете</label>
                 <input type="radio" name="source" id="friends" value="friends">
@@ -33,7 +33,7 @@
             </div>
 
             <div class="form-group">
-                <label for="category">Категория обращения</label>
+                <label class="form-label" for="category">Категория обращения</label>
                 <select name="category" id="category">
                     <option value="proposal">Предложение</option>
                     <option value="grievance">Жалоба</option>
@@ -42,15 +42,13 @@
 
             <div class="form-group">
 
-                <label class="form-lable" for="message">Текст сообщения</label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Введите сообщение">Текст по умолчанию
-                </textarea>
+                <label class="form-label" for="message">Текст сообщения</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Введите сообщение"></textarea>
             </div>
             
             <div class="form-group">
-                <label for="atachement">Вложение</label>
-                
-                <input type="file" name="atachement" id="atachement">
+                <label class="form-label" for="attachment">Вложение</label>
+                <input type="file" name="attachment" id="attachment">
             </div>
 
             <div class="form-group">
