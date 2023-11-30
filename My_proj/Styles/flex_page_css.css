@@ -1,0 +1,100 @@
+/* Базовые стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.goods-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between; /* Add this line */
+}
+
+/* Adjust the .goods class */
+/* Adjust the .goods class */
+.goods {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; /* Make each .goods element grow to fill available space */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Adjust the .goods-img class */
+.goods-img {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    flex: 1; /* Make the image expand to fill available space */
+}
+
+/* Add the following CSS for .goods-img img */
+.goods-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.goods-desc {
+    text-align: center;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
