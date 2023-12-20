@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Подключение основного CSS-файла Bootstrap для стилизации элементов страницы. -->
+
+    <!-- Your custom styles -->
+    <style>
+        /* Add your custom styles here */
+    </style>
+
+    <title>TechHub</title>
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Определение навигационной панели Bootstrap с определенными стилями. -->
+        <div class="container">
+            <a class="navbar-brand" href="#">TechHub</a>
+            <!-- Брендовая метка в навигационной панели. -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Кнопка переключения навигации для мобильных устройств. -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Контейнер для навигационных элементов, который будет отображаться/скрываться при уменьшении экрана. -->
+                <!-- Add your navigation links here if needed -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Name and Description Block -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>TechHub</h1>
+                <!-- Использование сеточной системы Bootstrap для создания макета в две колонки. -->
+                <p class="lead">TechHub - ваш источник для последних технологических трендов, возможность подключиться к
+                    экспертам индустрии и использовать передовые ресурсы. Присоединяйтесь к нам и исследуйте будущее
+                    технологий!</p>
+            </div>
+            <div class="col-lg-6">
+                <!-- Дополнительная колонка, которая может использоваться для размещения изображения или другого контента. -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Features/Advantages Block -->
+    <div class="container mt-5">
+        <h2>Основные особенности/преимущества</h2>
+        <ul>
+            <li>Экспертные мнения: Получайте эксклюзивные мнения и анализ от ведущих экспертов отрасли.</li>
+            <li>Технотренды: Оставайтесь впереди с реальными обновлениями последних технологических трендов и инноваций.</li>
+            <li>Сообщество: Общайтесь с единомышленниками и профессионалами в нашем живом сообществе.</li>
+            <!-- Использование стилей и сеточной системы Bootstrap для стилизации и организации списков. -->
+            <!-- Add more features as needed -->
+        </ul>
+    </div>
+
+    <!-- Feedback and Contacts Form Block -->
+    <div class="container mt-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <!-- Использование стилей Bootstrap для стилизации формы и кнопки. -->
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <!-- Подключение скрипта Popper.js, который является зависимостью для некоторых компонентов Bootstrap. -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Подключение основного скрипта Bootstrap для обеспечения интерактивности компонентов. -->
+
+</body>
+
+</html>
