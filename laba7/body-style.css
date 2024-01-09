@@ -1,0 +1,63 @@
+a {
+  color:#C62828;
+  /* Dark red color for links */
+}
+header {
+  margin-bottom:10px;
+  color:#689F38;
+  /* Olive green color for header text */
+  text-align:center;
+}
+aside {
+  margin-top:10px;
+}
+main {
+  margin-top:10px;
+  align-items:center;
+  text-align:center;
+}
+body {
+  min-width:100%;
+  font-size:16px;
+  font-family:'Roboto',sans-serif;
+  color:#4E342E;
+  /* Dark brown color for text */
+  background:#FF5252;
+  /* Red background color */
+}
+p {
+  font-size:24px;
+  line-height:1.5;
+}
+footer {
+  color:#1565C0;
+  /* Dark blue color for footer text */
+  text-align:center;
+}
+#image1 {
+  border:2px solid #3E2723;
+  /* Dark brown border with 2px width */
+  border-radius:10px;
+}
+.container {
+  font-size:18px;
+  background-color:#FF8A65;
+  /* Light orange background color */
+  align-items:center;
+}
+input,textarea,select {
+  font-size:16px;
+}
+.btn {
+  color:#FFFFFF;
+  background-color:#EF5350;
+  /* Darker red background color for buttons */
+}
+.form-check-input {
+  background-color:#558B2F;
+  /* Dark olive green background color for form-check-input */
+}
+.modal-footer,.modal-header,.modal-body {
+  background-color:#D32F2F;
+  /* Darker red background color for modal elements */
+}
